@@ -25,6 +25,7 @@ export default class MatrixContainer extends Component {
   render() {
     return (
       <div className={"root"}>
+        <div className={"Header"}>Bingo Time</div>
         <button
           onClick={this.generateNewNumber}
           disabled={this.state.allSelected}
@@ -32,7 +33,7 @@ export default class MatrixContainer extends Component {
           Generate Next Number
         </button>
 
-        <div>
+        <div className={"CurrentNumber"}>
           <Square
             value={
               this.state.selectedNumbers[this.state.selectedNumbers.length - 1]

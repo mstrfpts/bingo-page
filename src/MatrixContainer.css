@@ -1,6 +1,13 @@
 .root {
   text-align: center;
 }
+
+.Header {
+  font-size: xx-large;
+  margin: 20px;
+  padding: 10px;
+}
+
 .MatrixContainer {
   display: flex;
   flex-wrap: wrap;
@@ -18,6 +25,11 @@
   background-color: lightgrey;
   padding: 20px;
   margin: 5px;
+}
+
+.CurrentNumber {
+  font-size: xx-large;
+  padding: 20px;
 }
 
 .selectedSquare {
