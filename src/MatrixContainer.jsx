@@ -7,7 +7,7 @@ export default class MatrixContainer extends Component {
   state = {
     defaultNumbers: Array.from(Array(99).keys(), number => number + 1),
     notYetSelectedNumbers: Array.from(Array(99).keys(), number => number + 1),
-    selectedNumbers: [],
+    selectedNumbers: ["--"],
     allSelected: false,
     arraySize: 99
   };
